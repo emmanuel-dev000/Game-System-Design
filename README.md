@@ -27,5 +27,5 @@ PlayerController(the MonoBehaviour) uses PlayerControllerData (the ScriptableObj
 - Game will use the Constructor Injection, and nothing else.
 
 Link:
-https://vcontainer.hadashikick.jp/resolving/gameobject-injection
-https://vcontainer.hadashikick.jp/resolving/constructor-injection
+- https://vcontainer.hadashikick.jp/resolving/gameobject-injection
+- https://vcontainer.hadashikick.jp/resolving/constructor-injection
