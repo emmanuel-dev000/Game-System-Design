@@ -1,5 +1,11 @@
 # GAME SYSTEM DESIGN
 
+
+### STARTUP CLASS
+- The starting point of the game.
+- Always inside the Startup Scene.
+- Startup will initialize the game.
+
 ### UI
 - UI is a prefab inside its own scene.
 - UI is edited in inspector.
@@ -9,6 +15,11 @@
 
 For example:
 UI Menu is inside UI Menu Scene.
+
+### SCENES
+- Loading of a scene means deleting all the gameObjects inside the previous one, and loading the new one.
+- Don't use Singleton to avoid memory leaks with events.
+- Don't use DontDestroyOnLoad(gameObject) to avoid memory leaks.
 
 ### SCRIPTABLE OBJECTS DATA
 - MonoBehaviour serialized fields will be put here.
