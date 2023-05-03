@@ -6,6 +6,13 @@
 - Always inside the Startup Scene.
 - Startup will initialize the game.
 
+### GAME EVENTS
+- Game will use the Observer Pattern.
+- Classes will uses the EventHandler and EventArgs.
+
+For example:
+Sudden "No Internet Connection" popup event.
+
 ### UI
 - UI is a prefab inside its own scene.
 - UI is edited in inspector.
