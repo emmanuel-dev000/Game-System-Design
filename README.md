@@ -1,5 +1,10 @@
 # GAME SYSTEM DESIGN
 
+### GAME VERSIONS
+- DO NOT RELY ON TESTERS!
+- Always create a build for desktop.
+- Test manually and by AI.
+- Build a simple AI that can play the game automatically.
 
 ### STARTUP CLASS
 - The starting point of the game.
