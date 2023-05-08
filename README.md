@@ -41,7 +41,7 @@ UI Menu is inside UI Menu Scene.
 For example:
 PlayerController(the MonoBehaviour) uses PlayerControllerData (the ScriptableObject).
 
-### VCONTAINER
+### VCONTAINER (USE PURE DI IF CO-PROGRAMMERS DON'T KNOW VCONTAINER or IoC)
 - Game will use the VContainer.
 - Class that uses VContainer are for UI, Audio, Networking, and Saving/Loading of Data.
 - Class that are used in gameplay or other factor that is needed in gameplay will not use VContainer.
