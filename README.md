@@ -1,6 +1,14 @@
 # GAME SYSTEM DESIGN
 
-### GAME VERSIONS
+### VERSIONING
+- Always work on development branch not in main.
+- Add a build branch for building the game.
+- Version format is SEMANTIC VERSIONING 1.0.0
+
+Link:
+- https://semver.org/
+
+### GAME TESTING
 - DO NOT RELY ON TESTERS!
 - Always create a build for desktop.
 - Test manually and by AI.
